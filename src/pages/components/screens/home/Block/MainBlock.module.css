@@ -1,0 +1,123 @@
+.main_Block{
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+.main_block_content{
+    width: 1320px;
+    height: auto;
+    background: url(../../../../../../public/img/backgroundmain.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 0 auto;
+    border-radius: 32px;
+    display: flex;
+}
+
+.option_advantages_main_block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.paragraf_main{
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #6B6C78;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.h1{
+    font-size: 70px;
+    font-weight: 500;
+    color: #504cff;
+    font-family: 'Roboto', sans-serif;
+    max-width: 560px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 36px;
+}
+
+.image_advantages{
+    width: 30px;
+    height: auto;
+    margin-left: 40px;
+}
+
+.button_education_click{
+    border-radius: 16px;
+    padding: 22px 36px;
+    background: #504cff;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 18px;
+    color: #fff;
+}
+
+.button_education_main_block{
+    padding-top: 36px;
+    padding-bottom: 62px;
+    margin-left: 40px;
+}
+
+.right_main_block_content{
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.left_main_block_content{
+    position: relative;
+}
+
+.image_main_block{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .main_block_content{
+        width: 320px;
+        flex-direction: column;
+    }
+    .h1{
+        font-size: 32px;
+        padding-left: 20px;
+        max-width: 300px;
+    }
+    .image_advantages{
+        margin-left: 20px;
+        width: 25px;
+    }
+    .paragraf_main{
+        font-size: 14px;
+    }
+    .button_education_main_block{
+        position: absolute;
+        left: 15%;
+        bottom: 0px;
+        z-index: 1;
+        padding-bottom: 40px;
+        margin-left: 0px;
+    }
+    .left_main_block_content{
+        min-height: 580px;
+    }
+    .button_education_click{
+        padding: 14px 56px;
+        border-radius: 12px;
+        font-size: 14px;
+    }
+    .right_main_block_content{
+        display: flex;
+    }
+    .image_main_block{
+        position: static;
+        width: 320px;
+    }
+
+}
