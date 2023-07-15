@@ -1,0 +1,35 @@
+.paragraf_container{
+    width: 100%;
+    height: auto;
+}
+
+.paragraf_content{
+    width: 1320px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.paragraf{
+    padding: 60px 20px;
+}
+
+.paragraf h2{
+    font-weight: 300;
+    font-size: 54px;
+    color: #000;
+    max-width: 1250px;
+}
+
+@media screen and (max-width: 500px){
+    .paragraf_content{
+        width: 100%;
+    }
+    .paragraf{
+        padding: 60px 0;
+    }
+    .paragraf h2{
+        margin: 0 auto;
+        font-size: 30px;
+        max-width: 320px;
+    }
+}

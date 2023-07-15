@@ -4,6 +4,8 @@ import Image from 'next/image'
 import styles from './Home.module.css'
 import MainBlock from './Block/MainBlock'
 import Head from 'next/head'
+import Paragraf from './Paragraph/Paragraf'
+import Blocks2 from './Block/Blocks2'
 
 
 const Home: FC = () => {
@@ -14,6 +16,8 @@ const Home: FC = () => {
         </Head>
         <main className={styles.main}>
           <MainBlock />
+          <Paragraf />
+          <Blocks2 />
         </main>
       </Layout>
     )

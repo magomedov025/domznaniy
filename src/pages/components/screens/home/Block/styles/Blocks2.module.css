@@ -1,0 +1,67 @@
+.js1_container{
+    width: 100%;
+    height: auto;
+}
+
+.js1_content{
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jss1, .jss2, .jss3{
+    width: 420px;
+    height: 509px;
+    border-radius: 32px;
+    padding: 40px 40px;
+}
+
+.jss1 p{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+.jss2 p{
+    font-size: 30px;
+    color: #000;
+    font-weight: 500;
+}
+
+.jss3 p{
+    font-size: 30px;
+    color: #504CFF;
+    font-weight: 500;
+}
+
+.jss1{
+    background: url(../../../../../../../public/img/jss1.png);
+}
+
+.jss2{
+    background: url(../../../../../../../public/img/serious-guy-studying.jpg);
+}
+
+.jss3{
+    background: url(../../../../../../../public/img/Frame_7.png);
+}
+
+@media screen and (max-width: 500px){
+    .js1_content{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .jss1, .jss2, .jss3{
+        width: 320px;
+        height: 364px;
+        padding: 20px 20px;
+        margin-bottom: 20px;
+        background-size: cover;
+        background-position: right bottom;
+    }
+}

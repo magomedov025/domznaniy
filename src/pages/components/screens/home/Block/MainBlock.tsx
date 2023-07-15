@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import styles from './MainBlock.module.css'
+import styles from './styles/MainBlock.module.css'
 
 const MainBlock: FC = () => {
     return( 
