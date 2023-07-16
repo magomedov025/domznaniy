@@ -6,6 +6,7 @@ import MainBlock from './Block/MainBlock'
 import Head from 'next/head'
 import Paragraf from './Paragraph/Paragraf'
 import Blocks2 from './Block/Blocks2'
+import Blocks3 from './Block/Block3'
 
 
 const Home: FC = () => {
@@ -18,6 +19,7 @@ const Home: FC = () => {
           <MainBlock />
           <Paragraf />
           <Blocks2 />
+          <Blocks3 />
         </main>
       </Layout>
     )

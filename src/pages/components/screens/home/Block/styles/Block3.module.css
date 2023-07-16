@@ -1,0 +1,73 @@
+.jss1{
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+.jsss3_container{
+    width: 1320px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0px;
+}
+
+.jsss4, .jsss5{
+    width: 654px;
+    height: 157px;
+    border-radius: 32px;
+}
+
+.jsss4 h3, .jsss5 h3{
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 35px 20px 10px 20px;
+}
+
+.jsss4 p, .jsss5 p{
+    color: #0b0d22;
+    padding: 0 0 0 20px;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.6;
+    max-width: 358px;
+}
+
+.jsss4{
+    background: url(../../../../../../../public/img/image1.png);
+    background-position: right;
+}
+
+.jsss5{
+    background: url(../../../../../../../public/img/image3.png);
+    background-position: right;
+}
+
+@media screen and (max-width: 500px) {
+    .jsss3_container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .jsss4, .jsss5{
+        width: 320px;
+        height: 188px;
+    }
+    .jsss4{
+        background-position: 75% 75%;
+        margin-bottom: 10px;
+    }
+    .jsss5{
+        background-position: 75% 75%;
+        margin-top: 10px;
+    }
+    .jsss4 h3, .jsss5 h3{
+        font-size: 22px;
+    }
+    .jsss4 p, .jsss5 p{
+        font-size: 16px;
+        max-width: 203px;
+    }
+}
