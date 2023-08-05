@@ -1,0 +1,89 @@
+.education_video{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    overflow: hidden;
+}
+
+.education_body{
+    width: 1320px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs_education{
+    width: 50%;
+    height: 500px;
+    background-image: url(../../../../../../../public/img/logo_tabs.png);
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+.video_tabs{
+    width: 50%;
+}
+
+.lazy{
+    width: 650px;
+    border-radius: 32px;
+}
+
+.textVideoContent{
+    text-align: center;
+    width: 513px;
+    height: 66px;
+    margin: 0 auto;
+    background-color: #f7f7f8;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 330px;
+    left: 70px;
+}
+
+.spanVideoContent{
+    max-width: 460px;
+    padding-bottom: 5px;
+}
+
+.spanVideoContent span{
+    color: #6b6c78;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 500px){
+    .education_body{
+        width: 320px;
+        flex-direction: column;
+    }
+    .tabs_education{
+        width: 100%;
+        height: 350px;
+        background-size: cover;
+        background-position: center;
+    }
+    .video_tabs{
+        width: 100%;
+        height: 300px;
+    }
+    .lazy{
+        width: 100%;
+        border-radius: 22px;
+    }
+    .textVideoContent{
+        width: 296px;
+        height: 109px;
+        top: 165px;
+        left: 13px;
+    }
+    .spanVideoContent{
+        max-width: 279px;
+    }
+}

@@ -14,7 +14,7 @@ const NotFound: NextPage = () => {
                 <Link href='/'>Перейти на главную</Link>
             </div>
         </Layout>
-    ) 
+    )
 }
 
 export default NotFound

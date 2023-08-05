@@ -8,6 +8,8 @@ import Paragraf from './Paragraph/Paragraf'
 import Blocks2 from './Block/Blocks2'
 import Blocks3 from './Block/Block3'
 import Blocks4 from './Block/Block4'
+import Paragraf2 from './Paragraph/Paragraf2'
+import Block5 from './Block/Block5'
 
 
 const Home: FC = () => {
@@ -22,6 +24,9 @@ const Home: FC = () => {
           <Blocks2 />
           <Blocks3 />
           <Blocks4 />
+          <Paragraf2 />
+          <Block5 />
+          <script src="script.js"></script>
         </main>
       </Layout>
     )

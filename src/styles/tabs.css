@@ -1,0 +1,108 @@
+.videowr{
+    display: none;
+    position: relative;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.active{
+    display: flex;
+}
+
+.tab1, .tab2, .tab3, .tab4, .tab5{
+    background-color: #ededff;
+    color: #504cff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 12px;
+    padding: 16px 46px;
+    transition: color, background-color 500ms ease-in-out;
+}
+
+.tab1:hover, .tab2:hover, .tab3:hover, .tab4:hover, .tab5:hover{
+    background-color: #504cff;
+    color: #ededff;
+    transition: color, background-color 500ms ease-in-out;
+}
+
+.tab1{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    z-index: 1;
+}
+
+.tab2{
+    position: absolute;
+    top: 60px;
+    left: 220px;
+    z-index: 2;
+}
+
+.tab3{
+    position: absolute;
+    top: 145px;
+    left: 320px;
+    z-index: 3;
+}
+
+.tab4{
+    position: absolute;
+    top: 180px;
+    left: 40px;
+    z-index: 4;
+}
+
+.tab5{
+    position: absolute;
+    top: 230px;
+    left: 220px;
+    z-index: 5;
+}
+
+.active-click{
+    background-color: #504cff;
+    color: #ededed;
+}
+
+@media screen and (max-width: 500px){
+    .tab1, .tab2, .tab3, .tab4, .tab5{
+        font-size: 12px;
+        padding: 14px 36px;
+    }
+    .tab1{
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        z-index: 1;
+    }
+    
+    .tab2{
+        position: absolute;
+        top: 70px;
+        left: 130px;
+        z-index: 2;
+    }
+    
+    .tab3{
+        position: absolute;
+        top: 145px;
+        left: 150px;
+        z-index: 3;
+    }
+    
+    .tab4{
+        position: absolute;
+        top: 180px;
+        left: 10px;
+        z-index: 4;
+    }
+    
+    .tab5{
+        position: absolute;
+        top: 230px;
+        left: 120px;
+        z-index: 5;
+    }
+}
